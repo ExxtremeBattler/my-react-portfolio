@@ -5,11 +5,11 @@ function About() {
     return (
         <div className="About">
             
-            <section class="page-section about" id="aboutMe">
+            <section className="page-section about" id="aboutMe">
 
-      <h2 class="AM-heading"> Skills </h2>
+      <h2 className="AM-heading"> Skills </h2>
 
-      <p> <div class="vertical"> An apsiring Front-End Web Developer who loves challenging himself with new projects, skills, and quests. 
+      <p> <div className="vertical"> An apsiring Front-End Web Developer who loves challenging himself with new projects, skills, and quests. 
          Proficient in: 
         - HTML 
         - CSS 

@@ -1,8 +1,8 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Project from "./components/Project/project";
 
 function App() {
-  return <PortfolioContainer />;
+  return <Project  />;
 }
 
 export default App;

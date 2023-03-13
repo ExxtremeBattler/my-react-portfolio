@@ -5,12 +5,12 @@ function Contact() {
     return (
         <div className="Contact">
             
-            <section class="page-section contact" id="contactMe">
+            <section className="page-section contact" id="contactMe">
                 
                 <h2>Contact Me </h2> 
                 
                 <p> 
-                    <div class="vertical"> 
+                    <div className="vertical"> 
                     A current bootcamp student learning Front-End Development.
                      Email: myemail123@email.com GitHub:ExxtremeBattler 
                     </div> 

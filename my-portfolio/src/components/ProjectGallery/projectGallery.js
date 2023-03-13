@@ -6,11 +6,11 @@ function ProjectGallery() {
     return(
         <div className="ProjectGallery">
 
-        <section class="page-section work " id="myWork">
+        <section className="page-section work " id="myWork">
 
             <h2>Work </h2>
 
-                  <div class="vertical"> </div>
+                  <div className="vertical"> </div>
                           <section id="projectGrid">
 
 </section>  
