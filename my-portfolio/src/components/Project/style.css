@@ -68,6 +68,18 @@ body {
   bottom: 100px;
 }
 
+.card{
+  background-color: wheat;
+}
+
+.btn:hover{
+  box-shadow: 10px 10px black;
+}
+
+a:hover {
+  background-color: white;
+}
+
 
 
 
