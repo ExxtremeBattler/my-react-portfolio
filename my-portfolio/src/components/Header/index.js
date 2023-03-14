@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
 
 function Header() {
@@ -8,8 +9,7 @@ function Header() {
 
            <div className="jumbotron">
             <h1 className="display-4">Welcome to the fight! </h1>
-            <p className="lead"> ExxtremeBattler <img src="./images/hunter.jpg" alt="ExxtremeBattler's current avatar" ></img>
-      is currently learning: Bootstrap! </p>
+            <p className="lead"> ExxtremeBattler is currently learning: React!! </p>
   </div>
 
 </div>

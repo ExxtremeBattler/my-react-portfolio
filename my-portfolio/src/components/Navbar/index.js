@@ -1,11 +1,14 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
 
 function Navbar() {
 
     return(
+
         <div className="Navbar">
-            <nav className="navbar navbar-expand-lg navbar-light bg-red">
+
+      <nav className="navbar navbar-expand-lg navbar-light bg-red">
     
     <a className="navbar-brand" href="#">ExxtremeBattler!</a>
     
@@ -30,10 +33,7 @@ function Navbar() {
       
       </ul>
       
-      <form className="form-inline my-2 my-lg-0">
-        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> </input>
-        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+
     </div>
   
   </nav>
