@@ -12,8 +12,9 @@ function App() {
 
     <Navbar></Navbar>
     <Header />
-    <ProjectGallery> <Project> </Project> </ProjectGallery>
     <About />
+    <Project></Project>
+    <ProjectGallery> </ProjectGallery>
     <Contact></Contact>
   
   </div>

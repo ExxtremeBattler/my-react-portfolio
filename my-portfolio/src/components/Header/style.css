@@ -17,11 +17,7 @@ body {
   background-image: url(../images/desktop-wallpaper-herocredits-png-png-grafik-1920-×-1080-pixel-skaliert-joker-persona-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.jumbotron img {
-  height: 50px;
-  width: 50px;
+  height: 300px;
 }
 
 .display-4{

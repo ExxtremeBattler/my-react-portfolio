@@ -21,12 +21,21 @@
     },
 
     {
-        "title": "Marvel Hero Search",
+        "title": "Planner-App",
         "deployLink" : "https://exxtremebattler.github.io/planner-app/", 
         "repoLink" : "https://github.com/ExxtremeBattler/planner-app",
         "image" : "https://media.licdn.com/dms/image/C4E2DAQGF5A_s3jylWg/profile-treasury-image-shrink_1920_1920/0/1678108066121?e=1679407200&v=beta&t=X3IkHXe8wiJamw6hvdtN5Z4nwXXPH3Z6gza1nYGO0AU"
 
+    },
+
+    {
+        "title": "Team Profile Generator",
+        "deployLink" : "https://github.com/ExxtremeBattler/team-profile-generator", 
+        "repoLink" : "https://github.com/ExxtremeBattler/team-profile-generator",
+        "image" : "https://media.licdn.com/dms/image/C4E2DAQHpGbUV7qx0hg/profile-treasury-image-shrink_800_800/0/1678108302303?e=1679562000&v=beta&t=ifTq9FGe18Ju05EQWYLgdUNPG7swhPgYfjHtEM9vINY"
+
     }
+
 
     
 ]
