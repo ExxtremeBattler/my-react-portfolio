@@ -30,13 +30,13 @@ body {
   grid-template-rows:300px 300px 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "project1 project1 "
-  "project2 project3"
-  "project4 project5"
+  "project1 project2 "
+  "project3 project4"
+  "project5 project6"
   ;
   max-width: initial;
   position: relative;
-  left: 120px;
+  left: 180px;
   bottom: 330px;
   grid-gap: 250px;
 }
@@ -57,43 +57,60 @@ body {
 }
 
 
-#project1 {
+.project1 {
   grid-area: project1;
   position: relative;
   bottom: 60px;
 }
 
-#project1 a img{
+.project1 a img{
   height: 240px;
   width: 100%;
   object-fit: cover;
 }
 
-#project2 {
+.project2 {
   grid-area: project2;
+  position: relative;
+  left: 700px;
+  bottom: 440px
 }
 
-#project3 {
+.project3 {
   grid-area: project3;
+  position: relative;
+  left: 700px;
+  bottom: 440px
 }
 
-#project4 {
+.project4 {
   grid-area: project4;
+  position: relative;
+  bottom: 900px;
 }
 
-#project5 {
+.project5 {
   grid-area: project5;
+  position: relative;
+  left: 700px;
+  bottom: 850px
 }
 
-#project2, #project3{
+.project6 {
+  grid-area: project6;
+  position: relative;
+  bottom: 1300px;
+}
+
+/* .project2, .project3{
   position: relative;
   bottom: 100px;
 }
 
-#project4, #project5{
+.project4, .project5{
   position: relative;
   bottom: 100px;
-}
+} */
 
 
 

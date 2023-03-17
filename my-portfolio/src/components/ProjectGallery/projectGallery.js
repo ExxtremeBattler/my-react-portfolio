@@ -57,6 +57,13 @@ function ProjectGallery() {
     deployLink = {projects[4].deployLink}/>
     </div>
 
+    <div className="project6">
+<Project title = {projects[5].title} 
+    image = {projects[5].image}
+    repoLink = {projects[5].repoLink}
+    deployLink = {projects[5].deployLink}/>
+    </div>
+
 
 </div>
 </section>

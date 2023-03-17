@@ -34,7 +34,15 @@
         "repoLink" : "https://github.com/ExxtremeBattler/team-profile-generator",
         "image" : "https://media.licdn.com/dms/image/C4E2DAQHpGbUV7qx0hg/profile-treasury-image-shrink_800_800/0/1678108302303?e=1679562000&v=beta&t=ifTq9FGe18Ju05EQWYLgdUNPG7swhPgYfjHtEM9vINY"
 
+    },
+    {
+        "title": "Bootstrap Portfolio",
+        "deployLink" : "https://exxtremebattler.github.io/Bootstrap-Portfolio/", 
+        "repoLink" : "https://github.com/ExxtremeBattler/Bootstrap-Portfolio",
+        "image" : "https://media.licdn.com/dms/image/C4E2DAQEg5FPE-QSL3w/profile-treasury-image-shrink_800_800/0/1674127689523?e=1679666400&v=beta&t=19o6UaOrHVonadL5sK-V5TqnsJghOlOPOobDr2wiL3s"
+
     }
+
 
 
     
