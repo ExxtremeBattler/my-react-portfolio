@@ -14,31 +14,20 @@ function App() {
   
   <div>
 
-    <p> {projects[0].title}</p>
+    <Navbar />
+    <Header />
+    <About />
+    <ProjectGallery />
+    
+  
     
 
-    <Project title = {projects[0].title} 
-    image = {projects[0].image}
-    repoLink = {projects[0].repoLink}
-    deployLink = {projects[0].deployLink}/>
+
+<Contact></Contact> 
     
   </div>
 
-    // {/* <Project 
-    // title = {projects.title[0]}
-    // image = {projects.image[0]}
-    // deployLink = {projects.deployLink[0]}
-    // repoLink = {projects.repoLink[0]}/> */}
 
-    // {/* <Navbar></Navbar>
-    // <Header />
-    // <About />
-
-    
-
-    // <ProjectGallery> </ProjectGallery>
-    // <Contact></Contact> */}
-  
   
   
         ) 

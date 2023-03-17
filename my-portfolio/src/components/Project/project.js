@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Project(props) {
   
   return (
-    <div id="project">
+    <div id="project" className="projectGridArea">
 
           <div class="card">
             <img src={props.image} class="card-img-top" alt= {props.title} ></img>
@@ -14,7 +14,7 @@ function Project(props) {
               <h5 class="card-title"> {props.title}</h5>
               <p class="card-text">Deploy Link : {props.deployLink} <br></br>
               Repo Link : {props.repoLink} </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+
             </div>
           </div>
           </div>
