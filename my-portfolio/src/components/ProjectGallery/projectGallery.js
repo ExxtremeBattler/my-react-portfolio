@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css"
 import Project from "../Project/project";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+
 import projects from "../../projects.json"
 
 function ProjectGallery() {
@@ -18,7 +20,16 @@ function ProjectGallery() {
 
         <div className="ProjectGallery">
 
-<div className="project 1">
+<a href="project1"> {projects[0].title} </a>
+<a href="project2"> {projects[1].title} </a>
+<a href="project3"> {projects[2].title} </a>
+<a href="project4"> {projects[3].title} </a>
+<a href="project5"> {projects[4].title} </a>
+<a href="project6"> {projects[5].title} </a>
+
+
+
+{/* <div className="project 1">
 
 <Project title = {projects[0].title} 
     image = {projects[0].image}
@@ -62,7 +73,7 @@ function ProjectGallery() {
     image = {projects[5].image}
     repoLink = {projects[5].repoLink}
     deployLink = {projects[5].deployLink}/>
-    </div>
+    </div> */}
 
 
 </div>
