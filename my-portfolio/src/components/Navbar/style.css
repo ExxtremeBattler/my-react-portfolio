@@ -21,5 +21,8 @@ a:hover {
   background-color: white;
 }
 
+.navbar a{
+  font-size: larger;
+}
 
 

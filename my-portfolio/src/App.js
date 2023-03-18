@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Project from "./components/Project/project";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import About from "./components/About/index"
+import Home from "./components/Home"
 import ProjectGallery from "./components/ProjectGallery/projectGallery"
 import Contact from "./components/Contact";
 import projects from "./projects.json"
@@ -11,24 +11,19 @@ import projects from "./projects.json"
 function App() {
 
   return( 
-  
-  <div>
+  <Router>
+    <Navbar></Navbar>
+    <Header></Header>
+    <div>
+      <Routes>
+        <Route path="/" element = {<ProjectGallery />} />
+        <Route path="aboutMe" element = {<Home />} />
+        <Route path= "myWork" element = {<ProjectGallery />} />
+        <Route path= "contactMe" element = {<Contact/>} />
+      </Routes>
+    </div>
 
-    <Navbar />
-    <Header />
-    <About />
-    <ProjectGallery />
-    
-  
-    
-
-
-<Contact></Contact> 
-    
-  </div>
-
-
-  
+  </Router>
   
         ) 
 }
