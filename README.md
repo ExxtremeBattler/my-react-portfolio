@@ -25,6 +25,9 @@ Browser with React, HTML/CSS/JS support
 
 ## Usage 
 Upon loading the page, the user will be routed to Home. Using the Navbar, click on 'Projects' to view information regarding 6 of my projects, and 'Contact' to retrieve my contact information.
+
+![React App](https://user-images.githubusercontent.com/69109391/226177221-432a1048-021a-4461-a70c-cd530f2c2307.gif)
+
  
 ## Contributors 
 Jesus Christ our Lord and Saviour, the Bootcamp for their teaching and support, and finally myself, ExxtremBattler
