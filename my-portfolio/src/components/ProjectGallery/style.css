@@ -117,10 +117,11 @@ body {
   height: 1500px;
 }
 
-.projectGallery button{
-  background-color: white;
-  z-index: 1;
+.card{
+  width :1400px
 }
+
+
 
 
 
