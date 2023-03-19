@@ -1,6 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
+import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom"
+
 
 function Navbar() {
 
@@ -20,15 +22,15 @@ function Navbar() {
       <ul className="navbar-nav mr-auto">
         
         <li className="nav-item active">
-          <a className="nav-link" href="aboutMe"> Home <span className="sr-only"></span></a>
+          <Link  className="nav-link" role="button" to="aboutMe"> Home <span className="sr-only"></span></Link >
         </li>
         
         <li className="nav-item active">
-          <a className="nav-link" href="myWork"> Projects <span className="sr-only"></span></a>
+          <Link  className="nav-link" role="button" to="myWork"> Projects <span className="sr-only"></span></Link >
         </li>
         
         <li className="nav-item active">
-          <a className="nav-link" href="contactMe"> Contact Me <span className="sr-only"></span></a>
+          <Link  className="nav-link" role="button" to="contactMe"> Contact Me <span className="sr-only"></span></Link >
         </li>
       
       </ul>

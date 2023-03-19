@@ -7,10 +7,12 @@ function About() {
             
             <section className="page-section about" id="aboutMe">
 
-      <h2 className="AM-heading"> Skills </h2>
+      <h2 className="AM-heading"> Home </h2>
 
-      <p> <div className="vertical"> An apsiring Front-End Web Developer who loves challenging himself with new projects, skills, and quests. 
-         Proficient in: 
+      <p> <div className="vertical"> Hey! My name is ExxtremeBattler!
+      I am an apsiring Front-End Web Developer who loves challenging himself with new projects, skills, and quests. 
+
+    I am proficient in: 
         - HTML 
         - CSS 
         - JavaScript 
