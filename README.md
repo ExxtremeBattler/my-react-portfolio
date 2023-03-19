@@ -8,7 +8,6 @@
 - [Installation](#installation) 
 - [Usage](#usage) 
 - [Contributors](#contributors) 
-- [Tests](#tests) 
 - [License](#license) 
 - [Questions](#questions) 
  
@@ -18,7 +17,6 @@ The purpose of this project was to build a new iteration of my portflio using [R
 Program runs exclusively in browser.
 
 Routing processed using [React-Router](https://reactrouter.com/).
-
 
 Through this project, I learnt more about Javascript, working with React, React-Router, and how to ensure a program's logic is as sharp as possible. 
 
