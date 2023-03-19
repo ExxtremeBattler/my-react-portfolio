@@ -13,7 +13,7 @@
 - [Questions](#questions) 
  
 ## Description 
-the purpose of this project was to build a new iteration of my portflio using [React](https://react.dev/) that displays my bio, 6 of my projects, and contact information.
+The purpose of this project was to build a new iteration of my portflio using [React](https://react.dev/) that displays my bio, 6 of my projects, and contact information.
 
 Program runs exclusively in browser.
 
