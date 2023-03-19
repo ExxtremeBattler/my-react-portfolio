@@ -12,7 +12,9 @@ function Contact() {
                 <p> 
                     <div className="vertical"> 
                     A current bootcamp student learning Front-End Development.
-                     Email: myemail123@email.com GitHub:ExxtremeBattler 
+                     Email: myemail123@email.com <br/>
+                     GitHub: https://github.com/ExxtremeBattler <br/>
+                     LinkedIn: https://www.linkedin.com/in/gabrielfalade/
                     </div> 
                 </p>
       
